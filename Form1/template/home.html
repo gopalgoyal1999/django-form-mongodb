@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} home {% endblock %}
+
+{% block content %}
+<div class="container">
+
+{% include 'navbar.html' %}
+
+
+<h1>welcome</h1>
+
+  <p>My files:</p>
+  <ul>
+    {% for obj in reg %}
+      <li>
+        <a href="media/{{ obj.Img1 }}" target="_blank">{{ obj.name }} 1</a>
+          <a target="_blank" href="media/{{ obj.Img2 }}">2</a>
+      </li>
+    {% endfor %}
+</div>
+{% endblock %}
