@@ -80,8 +80,8 @@ DATABASES = {
         'NAME': 'django-form',
         'CLIENT': {
         'host': 'mongodb+srv://gopal:9582870584@cluster0-uvivi.mongodb.net/test?retryWrites=true&w=majority'},
-        'USER': 'gopal',
-        'PASSWORD': '9582870584',
+        'USER': 'hello',
+        'PASSWORD': 'just-imagine',
     }
 }
 
