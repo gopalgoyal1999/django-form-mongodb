@@ -1,2 +1,2 @@
-# django-form-mongodb
+# Python django-form with database mongodb
  
