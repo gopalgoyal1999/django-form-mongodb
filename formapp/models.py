@@ -15,9 +15,9 @@ from mongoengine import *
 
 connect(
         db='django-form',
-        host='m**********************************************',
-        username='*************************',
-        password='*************************'
+        host='mongodb+srv://gopal:************@cluster0-uvivi.mongodb.net/django-form?retryWrites=true&w=majority',
+        username='gopal',
+        password='*************'
 )
 
 class Registrationfm(Document):

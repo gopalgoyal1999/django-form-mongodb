@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'django-form',
         'CLIENT': {
-        'host': '*********************************************'},
+        'host': 'mongodb+srv://gopal:**********@cluster0-uvivi.mongodb.net/test?retryWrites=true&w=majority'},
         'USER': 'hello',
         'PASSWORD': 'just-imagine',
     }
